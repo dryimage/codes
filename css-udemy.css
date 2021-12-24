@@ -1,0 +1,65 @@
+
+        
+        
+        
+        body{
+            padding: 0px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           margin: 0px;
+        }
+
+
+        a{
+            text-decoration: none;
+        }
+
+        .left a:hover{
+            color: crimson;
+        }
+
+        .head{
+             
+            width: 900px;
+            height: 75px;
+            padding-left: 5px;
+            /* background-color: pink; */
+            background-image: url('dryimage3.jpg');
+            color: white;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            /* background-blend-mode: 30; */
+
+
+        }
+        .left{
+              
+            width: 260px;
+            /* margin: 10px; */
+            padding: 20px;
+            /* background-color:gray; */
+            float: left;
+            min-height: 500px;
+
+        }
+        .right{
+
+            width: 565px;
+            /* margin: 10px; */
+            float: left;
+            padding: 20px;
+            /* background-color: grey; */
+            min-height: 500px;
+        }
+        .foot{
+
+            width: 900px;
+            height: 40px;
+            /* margin: 10px; */
+            background-color: black;
+            color: white;
+            padding:5px;
+        }
+
+        .clear{
+            clear: both;
+        }
